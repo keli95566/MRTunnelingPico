@@ -1,0 +1,37 @@
+Image Effects & Filters
+
+This Shader contains wide variety of commons effects used in Image processing.
+
+Which Includes
+
+• Kernel Effects (Convolution Matrix)
+- Which cover a wide verity of effects like
+Gaussian Blur, Sharp, Edge, Emboss, Etc.
+It also gives ability to define custom Kernel matrix.
+
+• Color Matrix Effects
+- Invert, Sepia,  Colormatic grey scale, Black and White, Polaroid, etc.
+It also gives ability to define custom Color matrix.
+
+• Hue Saturation Value (HSV) and Contrast
+- Gives floating point values to rotate Hue color wheel, with value to adjust contrast and Saturation as well.
+
+• Effect control
+- A slider is given to control the effect on original color. 
+
+• Effect Tweak
+- Additional effect Multiple and Adder is given to tweak all the effects.
+
+• Custom Inspector
+- Package includes Custom Inspector for the Shader, which should be used to config the Material.
+
+NOTE : These effects are not tested on low end devices, But none of them is resource intensive enough to cause problems,
+but I'll still say, Take it as a tool for prototyping and use it in production at your own risk.
+
+Last Tested on 2020 LTS on Default Rendering Pipeline
+
+For any question, suggestion or feedback
+OR updates, new release, you can contact me on
+Twitter : https://twitter.com/AshwinMods
+Youtube : https://www.youtube.com/channel/UCMYJTqkicilfT7uZ3Hv-tsA
+Website : https://AshwinMods.com/

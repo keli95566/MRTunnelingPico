@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ImgaeFilterExample
+  m_Shader: {fileID: 4800000, guid: c6efa50870164184d88db53c40578140, type: 3}
+  m_ShaderKeywords: EFFECT_HSVC ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 41df4ab8a05595e49b2f2d150e753bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Effect: 3
+    - _FxBlend: 1
+    - _KMul: 1
+    m_Colors:
+    - _0123: {r: -1, g: -1, b: -1, a: -1}
+    - _4567: {r: 8, g: -1, b: -1, a: -1}
+    - _89AB: {r: -1, g: 0, b: 0, a: 0}
+    - _C0: {r: -15.748418, g: 4.551052, b: 4.145991, a: 0}
+    - _C1: {r: 14.915792, g: -4.9786167, b: 15.320853, a: 0}
+    - _C2: {r: 1.8326254, g: 1.4275644, b: -18.466845, a: 0}
+    - _C3: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HSVC: {r: 1, g: -20.1, b: 1, a: 1}
+    - _PixDistMulAdd: {r: 12.7, g: 12.7, b: 1, a: 0}
+  m_BuildTextureStacks: []
