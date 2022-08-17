@@ -3,15 +3,8 @@
 This repository contains the Unity C# code for creating mixed reality tunneling effects, a method to balance the trade-off between the limited render performance and high visual quality of video see-through head-mounted displays (VST-HMDs) through fusing images of two types of camera sensors with different
 resolutions and frame rates. 
 
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/watch?v=yIDXRc3FDJA"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+
+[<img src="./md_images/MRTunneling_Demo.gif" width=550px>](https://www.youtube.com/watch?v=yIDXRc3FDJA "WATCH THE TEASER ON YOUTUBE")
 
 It also demonstrates how we could convert a gray-scale low resolution VST of a VR headset to an untethered HD colorful VST HMD using sensor fusion technique. 
 
@@ -41,19 +34,31 @@ immersive VR.
 MR Tunneling with head speed detection accommodates the user’s head movement speed by fading out the external VST when fast head movements are detected, thus
 potentially compensating for video streaming latency. 
 
+<img src="./md_images/foveated_MR_tunneling_head_speed_accomodation.gif"
+     alt="untethered demo "
+     style="float: center; margin-right: 10px; height:250px;" />
+
 ## Feature 3: Foveated MR Tunneling Effects
 
 The foveated MR Tunneling effect displays the center of the external VST based on the tracked user eye movements.
+
+<img src="./md_images/foveated_MR_tunneling.gif"
+     alt="untethered demo "
+     style="float: center; margin-right: 10px; height:250px;" />
 
 ## Software Version
 
 1. **VR Headset**: The project was implemented targeting the [Pico Neo 3 Pro Eye](https://www.picoxr.com/us/neo3.html) standalone VR headset with the [Pico Unity SDK version 2.0.4](https://developer-global.pico-interactive.com/). 
 
 2. **Stereo Camera**: We use the ZED Mini mixed reality stereoscopic camera with the ZED SDK version 3.7.3. 
-   
-3. **Gstreamer Unity Plugin** :
+
+3. **Unity**: This project was tested on Unity version 2021.3.4f1.    
+
+4. **Gstreamer Unity Plugin** :
 This Unity project extends the ```mrayGstreamerUnity``` (https://github.com/mrayy/mrayGStreamerUnity) project, and makes it compatible with any [arm64 Android device](https://github.com/mrayy/mrayGStreamerUnity/issues/32). As the results, the plugin is compatible with other standalone VR headsets such as the Oculus Quest 2.
-   
+
+5. Note: the user interface components are not included in the open source repository as it requires a paid Unity asset the [Unity VR UI toolkit](https://assetstore.unity.com/packages/tools/gui/vr-uikit-bootstrap-your-vr-app-with-ease-128236?locale=zh-CN).
+    
 ## Accelerated G-Streamer Pipeline
 
 
