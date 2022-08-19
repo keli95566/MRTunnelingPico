@@ -1,4 +1,4 @@
-# Mixed Reality Tunneling Effects
+# [Mixed Reality Tunneling Effects](https://youtu.be/yIDXRc3FDJA)
 
 This repository contains the Unity C# code for creating mixed reality tunneling effects, a method to balance the trade-off between the limited render performance and high visual quality of video see-through head-mounted displays (VST-HMDs) through fusing images of two types of camera sensors with different
 resolutions and frame rates. 
